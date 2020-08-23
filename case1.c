@@ -5,8 +5,7 @@
  * 都是多少？
  **/
 
-#include <stdlib.h>
-#include <stdio.h>
+#include "common/common.h"
 
 int main(int argc, char const *argv[])
 {

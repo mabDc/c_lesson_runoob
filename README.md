@@ -17,5 +17,5 @@ make runoob
 ```
 
 ```sh
-make case N=1 # 或者N=2等
+make case N=1 # make case N={N} [arg={arg}]
 ```
