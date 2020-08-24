@@ -1,7 +1,7 @@
-// 题目：判断101到200之间的素数。
+
+// 题目：求100之内的素数。
 
 #include "common/common.h"
-
 bool check(int n)
 {
     if (n < 2)
@@ -17,15 +17,16 @@ bool check(int n)
     }
     return true;
 }
-
 int main(int argc, char const *argv[])
 {
-    for (int i = 101; i < 200; i++)
+    for (int i = 0; i < 100; i++)
     {
         if (check(i))
         {
             printf("%d\n", i);
         }
     }
+
+    printf("\n");
     return 0;
 }
